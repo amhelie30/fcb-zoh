@@ -1,3 +1,5 @@
 Hello World!
 
 Welcome to Zuitt Free Coding Bootcamp.
+
+This is a 4-hour Worshop focused on Git Basics and Environment.
