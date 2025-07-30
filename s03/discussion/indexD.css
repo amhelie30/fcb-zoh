@@ -1,0 +1,125 @@
+/*
+CSS Rules Syntax
+selector {
+	property:value;
+}
+*/
+/* Universal Selector using the "*" symbol. */
+
+* {
+  font-family: "Courier New", monospace;
+
+  /* CSS reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Type Selector - it selects all elements of a specific HTML tag or type.*/
+
+h1 {
+  font-family: "Tahoma", sans-serif;
+}
+
+body {
+  /* background-color: skyblue; */
+  background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section {
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  text-align: center;
+  /* padding - adds spaces all around to an element (top, bottom, left, and right. */
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  /* text-decoration is the underline in the html default in the element */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Class selector (.) - it selects all elements that have a specific class attribute.*/
+
+.nav-link {
+  font-size: 18px;
+}
+
+.title {
+  color: green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.module-image {
+  /* to modify the course images */
+  height: 200px;
+  width: 200px;
+}
+
+.module-card {
+  border: 2px solid black;
+  height: 350px;
+  width: 800px;
+  padding: 20px;
+  /* padding is the space inside the border */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin is the space outside the border between the elements*/
+  /* auto takes all the space, applied both left and right results in centered contents*/
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.top-card {
+  background-color: skyblue;
+  height: 50px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* ID Selector */
+/* ID Selector (#) selects specific element by its unique ID */
+
+#hello {
+  color: black;
+  font-size: 2rem;
+  /* 16px = 1rem */
+}
+
+#logo {
+  height: 305px;
+  width: 300px;
+  /* when the image is square, either height and width can be used. */
+  border-radius: 150px;
+  /* border-radius for round edges */
+  /* to achieve a full circle, divide the lenght or width to 2. */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#modules {
+  margin-top: 70px;
+}
+
+#b-top {
+  color: black;
+  font-weight: bold;
+}
